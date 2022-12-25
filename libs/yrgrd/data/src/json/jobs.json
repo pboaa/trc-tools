@@ -1,0 +1,92 @@
+[
+  {
+    "name": "warrior",
+    "base": {
+      "hp": 20,
+      "ap": 20
+    },
+    "grow": {
+      "hp": 6,
+      "ap": 1.75,
+      "atk": 1.25,
+      "def": 1.25,
+      "matk": 0,
+      "mdef": 0
+    }
+  },
+  {
+    "name": "ranger",
+    "base": {
+      "hp": 20,
+      "ap": 20
+    },
+    "grow": {
+      "hp": 4.12,
+      "ap": 2,
+      "atk": 1.25,
+      "def": 1,
+      "matk": 0,
+      "mdef": 0
+    }
+  },
+  {
+    "name": "mage",
+    "base": {
+      "hp": 15,
+      "ap": 25
+    },
+    "grow": {
+      "hp": 3,
+      "ap": 3,
+      "atk": 0.75,
+      "def": 0.75,
+      "matk": 1.37,
+      "mdef": 1.25
+    }
+  },
+  {
+    "name": "cleric",
+    "base": {
+      "hp": 20,
+      "ap": 20
+    },
+    "grow": {
+      "hp": 4.12,
+      "ap": 2.75,
+      "atk": 0.75,
+      "def": 1,
+      "matk": 0.75,
+      "mdef": 0.75
+    }
+  },
+  {
+    "name": "merchant",
+    "base": {
+      "hp": 10,
+      "ap": 10
+    },
+    "grow": {
+      "hp": 3,
+      "ap": 2,
+      "atk": 0.75,
+      "def": 0.75,
+      "matk": 0,
+      "mdef": 0
+    }
+  },
+  {
+    "name": "monk",
+    "base": {
+      "hp": 25,
+      "ap": 15
+    },
+    "grow": {
+      "hp": 5.25,
+      "ap": 1,
+      "atk": 1,
+      "def": 0.75,
+      "matk": 0.75,
+      "mdef": 0
+    }
+  }
+]

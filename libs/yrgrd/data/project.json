@@ -1,0 +1,26 @@
+{
+  "name": "yrgrd-data",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/yrgrd/data/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/yrgrd/data",
+        "main": "libs/yrgrd/data/src/index.ts",
+        "tsConfig": "libs/yrgrd/data/tsconfig.lib.json",
+        "assets": ["libs/yrgrd/data/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/yrgrd/data/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

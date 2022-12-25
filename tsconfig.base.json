@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    /** */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    /** */
+    "paths": {
+      "@trc-tools/yrgrd/data": ["libs/yrgrd/data/src/index.ts"],
+      "@trc-tools/yrgrd/stats-calc": ["libs/yrgrd/stats-calc/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
