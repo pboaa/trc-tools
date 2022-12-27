@@ -1,4 +1,4 @@
-export const JobArr = [
+export const JOB_LIST = [
   'warrior',
   'ranger',
   'mage',
@@ -6,4 +6,4 @@ export const JobArr = [
   'merchant',
   'monk',
 ] as const;
-export type Job = typeof JobArr[number];
+export type Job = typeof JOB_LIST[number];

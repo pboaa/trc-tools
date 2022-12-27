@@ -3,7 +3,7 @@ import {
   jobsJson,
   jobBaseStats,
   StatsTable,
-  StatArr,
+  STAT_LIST,
 } from '@trc-tools/yrgrd/data';
 
 function getJobJsonValue(job: Job) {
@@ -25,7 +25,7 @@ export function calcJobStats(job: Job, level: number) {
 
   const { jsonBase, jsonGrow } = getJobJsonValue(job);
 
-  StatArr.forEach((key) => {
+  STAT_LIST.forEach((key) => {
     const base = jsonBase[key] ?? 0;
     const grow = jsonGrow[key] ?? 0;
     const lv = level - 1;

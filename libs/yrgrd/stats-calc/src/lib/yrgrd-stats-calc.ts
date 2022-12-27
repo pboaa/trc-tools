@@ -3,3 +3,4 @@ export function yrgrdStatsCalc(): string {
 }
 
 export { calcJobStats } from './job';
+export { calcCharaStats } from './chara';

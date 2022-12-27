@@ -1,4 +1,4 @@
-export const StatArr = [
+export const STAT_LIST = [
   'hp',
   'ap',
   'sp',
@@ -24,7 +24,7 @@ export const StatArr = [
   'brnRes',
   'heal',
 ] as const;
-export type Stat = typeof StatArr[number];
+export type Stat = typeof STAT_LIST[number];
 export type StatsTable<T = number> = { [stat in Stat]: T };
 
 /** 初期ステータス */
