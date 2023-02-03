@@ -1,0 +1,563 @@
+[
+  {
+    "name": "ひのきのぼう",
+    "category": "weapon",
+    "weaponType": "mace",
+    "requiredLevel": 1,
+    "stats": { "atk": 1, "turnSpd": 4, "dmgRange": 15 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "こんぼう",
+    "category": "weapon",
+    "weaponType": "mace",
+    "requiredLevel": 1,
+    "stats": { "atk": 1, "turnSpd": 4, "dmgRange": 15 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "アイアンメイス",
+    "category": "weapon",
+    "weaponType": "mace",
+    "requiredLevel": 6,
+    "stats": { "atk": 4, "turnSpd": 4, "dmgRange": 15 },
+    "equipableJobs": ["warrior", "cleric", "merchant"]
+  },
+  {
+    "name": "ボーンメイス",
+    "category": "weapon",
+    "weaponType": "mace",
+    "requiredLevel": 30,
+    "stats": { "atk": 8, "turnSpd": 4, "dmgRange": 15 },
+    "equipableJobs": ["warrior", "cleric", "merchant"]
+  },
+  {
+    "name": "岩石ハンマー",
+    "category": "weapon",
+    "weaponType": "mace",
+    "requiredLevel": 11,
+    "isTwoHanded": true,
+    "stats": { "atk": 9, "turnSpd": 4, "dmgRange": 15 },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "まほうのつえ",
+    "category": "weapon",
+    "weaponType": "wand",
+    "requiredLevel": 1,
+    "stats": { "matk": 2, "turnSpd": 4, "dmgRange": 20 },
+    "equipableJobs": ["mage", "cleric"]
+  },
+  {
+    "name": "いやしのつえ",
+    "category": "weapon",
+    "weaponType": "wand",
+    "requiredLevel": 1,
+    "stats": { "matk": 1, "heal": 50, "turnSpd": 4, "dmgRange": 20 },
+    "equipableJobs": ["cleric"]
+  },
+  {
+    "name": "僧侶の杖",
+    "category": "weapon",
+    "weaponType": "wand",
+    "requiredLevel": 30,
+    "stats": { "matk": 3, "heal": 60, "turnSpd": 4, "dmgRange": 20 },
+    "equipableJobs": ["cleric"]
+  },
+  {
+    "name": "羽根付きのつえ",
+    "category": "weapon",
+    "weaponType": "wand",
+    "requiredLevel": 15,
+    "stats": { "matk": 5, "turnSpd": 4, "dmgRange": 20 },
+    "equipableJobs": ["mage", "cleric"]
+  },
+  {
+    "name": "砂漠のつえ",
+    "category": "weapon",
+    "weaponType": "wand",
+    "requiredLevel": 30,
+    "stats": { "matk": 7, "turnSpd": 4, "dmgRange": 20 },
+    "equipableJobs": ["mage", "cleric"]
+  },
+  {
+    "name": "てつのつるぎ",
+    "category": "weapon",
+    "weaponType": "sword",
+    "requiredLevel": 1,
+    "stats": { "atk": 7, "def": 2, "turnSpd": 4, "dmgRange": 20 },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "バトルソード",
+    "category": "weapon",
+    "weaponType": "sword",
+    "requiredLevel": 30,
+    "stats": { "atk": 10, "def": 2, "turnSpd": 4, "dmgRange": 20 },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "ウッドナイフ",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "requiredLevel": 1,
+    "stats": { "atk": 2, "turnSpd": 3.5, "dmgRange": 10 },
+    "equipableJobs": ["warrior", "ranger", "merchant"]
+  },
+  {
+    "name": "鉄のナイフ",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "requiredLevel": 6,
+    "stats": { "atk": 4, "turnSpd": 3.5, "dmgRange": 10 },
+    "equipableJobs": ["warrior", "ranger", "merchant"]
+  },
+  {
+    "name": "ハードウッドナイフ",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "requiredLevel": 15,
+    "stats": { "atk": 6, "turnSpd": 3.5, "dmgRange": 10 },
+    "equipableJobs": ["warrior", "ranger", "merchant"]
+  },
+  {
+    "name": "風の短剣",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "requiredLevel": 30,
+    "stats": { "atk": 8, "turnSpd": 3.5, "dmgRange": 10 },
+    "equipableJobs": ["warrior", "ranger", "merchant"]
+  },
+  {
+    "name": "木の槍",
+    "category": "weapon",
+    "weaponType": "spear",
+    "requiredLevel": 1,
+    "stats": { "atk": 4, "turnSpd": 4.5, "dmgRange": 25 },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "鉄の槍",
+    "category": "weapon",
+    "weaponType": "spear",
+    "requiredLevel": 6,
+    "stats": { "atk": 6, "turnSpd": 4.5, "dmgRange": 25 },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "鋭い槍",
+    "category": "weapon",
+    "weaponType": "spear",
+    "requiredLevel": 18,
+    "stats": { "atk": 12, "turnSpd": 4.5, "dmgRange": 25 },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "スコースピア",
+    "category": "weapon",
+    "weaponType": "spear",
+    "requiredLevel": 30,
+    "stats": { "atk": 18, "turnSpd": 4.5, "dmgRange": 25 },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "鉄の斧",
+    "category": "weapon",
+    "weaponType": "axe",
+    "requiredLevel": 6,
+    "isTwoHanded": true,
+    "stats": {
+      "atk": 14,
+      "critRate": 10,
+      "critDmg": 30,
+      "turnSpd": 4.5,
+      "dmgRange": 30
+    },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "バトルアックス",
+    "category": "weapon",
+    "weaponType": "axe",
+    "requiredLevel": 11,
+    "isTwoHanded": true,
+    "stats": {
+      "atk": 20,
+      "critRate": 10,
+      "critDmg": 30,
+      "turnSpd": 4.5,
+      "dmgRange": 30
+    },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "大地の斧",
+    "category": "weapon",
+    "weaponType": "axe",
+    "requiredLevel": 30,
+    "isTwoHanded": true,
+    "stats": {
+      "atk": 35,
+      "critRate": 10,
+      "critDmg": 30,
+      "turnSpd": 4.5,
+      "dmgRange": 30
+    },
+    "equipableJobs": ["warrior", "merchant"]
+  },
+  {
+    "name": "布のグローブ",
+    "category": "weapon",
+    "weaponType": "glove",
+    "requiredLevel": 1,
+    "isTwoHanded": true,
+    "stats": { "atk": 2, "turnSpd": 3.5, "dmgRange": 15 },
+    "equipableJobs": ["monk"]
+  },
+  {
+    "name": "皮のグローブ",
+    "category": "weapon",
+    "weaponType": "glove",
+    "requiredLevel": 1,
+    "isTwoHanded": true,
+    "stats": { "atk": 4, "turnSpd": 3.5, "dmgRange": 15 },
+    "equipableJobs": ["monk"]
+  },
+  {
+    "name": "棘のグローブ",
+    "category": "weapon",
+    "weaponType": "glove",
+    "requiredLevel": 18,
+    "isTwoHanded": true,
+    "stats": { "atk": 10, "turnSpd": 3.5, "dmgRange": 15 },
+    "equipableJobs": ["monk"]
+  },
+  {
+    "name": "砂鉄のグローブ",
+    "category": "weapon",
+    "weaponType": "glove",
+    "requiredLevel": 30,
+    "isTwoHanded": true,
+    "stats": { "atk": 14, "turnSpd": 3.5, "dmgRange": 15 },
+    "equipableJobs": ["monk"]
+  },
+  {
+    "name": "木の弓",
+    "category": "weapon",
+    "weaponType": "bow",
+    "requiredLevel": 1,
+    "isTwoHanded": true,
+    "stats": {
+      "atk": 6,
+      "hit": 10,
+      "critRate": 10,
+      "turnSpd": 4.5,
+      "dmgRange": 30
+    },
+    "equipableJobs": ["ranger"]
+  },
+  {
+    "name": "鉄の弓",
+    "category": "weapon",
+    "weaponType": "bow",
+    "requiredLevel": 11,
+    "isTwoHanded": true,
+    "stats": {
+      "atk": 9,
+      "hit": 10,
+      "critRate": 10,
+      "turnSpd": 4.5,
+      "dmgRange": 30
+    },
+    "equipableJobs": ["ranger"]
+  },
+  {
+    "name": "羽の弓",
+    "category": "weapon",
+    "weaponType": "bow",
+    "requiredLevel": 18,
+    "isTwoHanded": true,
+    "stats": {
+      "atk": 16,
+      "hit": 10,
+      "critRate": 10,
+      "turnSpd": 4.5,
+      "dmgRange": 30
+    },
+    "equipableJobs": ["ranger"]
+  },
+  {
+    "name": "トンボアロー",
+    "category": "weapon",
+    "weaponType": "bow",
+    "requiredLevel": 30,
+    "isTwoHanded": true,
+    "stats": {
+      "atk": 23,
+      "hit": 10,
+      "critRate": 10,
+      "turnSpd": 4.5,
+      "dmgRange": 30
+    },
+    "equipableJobs": ["ranger"]
+  },
+  {
+    "name": "きのたて",
+    "category": "shield",
+    "requiredLevel": 1,
+    "stats": { "def": 4 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant"]
+  },
+  {
+    "name": "てつのたて",
+    "category": "shield",
+    "requiredLevel": 1,
+    "stats": { "def": 8 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant"]
+  },
+  {
+    "name": "透明なたて",
+    "category": "shield",
+    "requiredLevel": 15,
+    "stats": { "def": 6, "mdef": 6 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant"]
+  },
+  {
+    "name": "布の服",
+    "category": "armor",
+    "requiredLevel": 1,
+    "stats": { "def": 3 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "皮の服",
+    "category": "armor",
+    "requiredLevel": 1,
+    "stats": { "def": 4 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "冒険者の服",
+    "category": "armor",
+    "requiredLevel": 18,
+    "stats": { "def": 6 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "旅人の服",
+    "category": "armor",
+    "requiredLevel": 30,
+    "stats": { "def": 8 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "布のローブ",
+    "category": "armor",
+    "requiredLevel": 1,
+    "stats": { "matk": 2, "mdef": 8 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "砂漠のローブ",
+    "category": "armor",
+    "requiredLevel": 30,
+    "stats": { "matk": 4, "mdef": 10 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "悪魔のローブ",
+    "category": "armor",
+    "requiredLevel": 18,
+    "stats": { "mdef": 8, "dark": 5 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "布の靴",
+    "category": "shoes",
+    "requiredLevel": 1,
+    "stats": { "moveSpd": 10 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "羽根の靴",
+    "category": "shoes",
+    "requiredLevel": 18,
+    "stats": { "moveSpd": 20 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "鉄の指輪",
+    "category": "accessory",
+    "requiredLevel": 1,
+    "stats": { "def": 5 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "草の指輪",
+    "category": "accessory",
+    "requiredLevel": 1,
+    "stats": { "mdef": 5 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "魔法の指輪",
+    "category": "accessory",
+    "requiredLevel": 10,
+    "stats": { "matk": 1 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "力の指輪",
+    "category": "accessory",
+    "requiredLevel": 10,
+    "stats": { "atk": 3 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "花の指輪",
+    "category": "accessory",
+    "requiredLevel": 18,
+    "stats": { "mdef": 5, "forest": 5 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "集中の指輪",
+    "category": "accessory",
+    "requiredLevel": 10,
+    "stats": { "critRate": 3 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "トナカイの首飾り",
+    "category": "accessory",
+    "requiredLevel": 20,
+    "stats": { "atk": 5 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "悪魔の指輪",
+    "category": "accessory",
+    "requiredLevel": 20,
+    "stats": { "mdef": 5, "dark": 5 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "大蛇のミサンガ",
+    "category": "accessory",
+    "requiredLevel": 1,
+    "stats": { "psnRes": 80 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "気合の指輪",
+    "category": "accessory",
+    "requiredLevel": 20,
+    "stats": { "stnRes": 30 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "砂漠の指輪",
+    "category": "accessory",
+    "requiredLevel": 40,
+    "stats": { "brnRes": 50 },
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "大蛇の髪飾り",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "大蛇の2枚飾り",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "魔法の帽子",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "大魔導士の帽子",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "赤い花の髪飾り",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "おしゃれな触覚",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "羽根つきの触覚",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "鳥の髪飾り",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "皮の帽子",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "砂漠のターバン",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "砂除け眼鏡",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "トナカイの大角",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "トナカイの小角",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  },
+  {
+    "name": "サンタの帽子",
+    "category": "head",
+    "requiredLevel": 1,
+    "stats": {},
+    "equipableJobs": ["warrior", "ranger", "mage", "cleric", "merchant", "monk"]
+  }
+]

@@ -8,16 +8,14 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es2017",
     "module": "esnext",
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    /** */
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    /** */
     "paths": {
       "@trc-tools/yrgrd/data": ["libs/yrgrd/data/src/index.ts"],
       "@trc-tools/yrgrd/stats-calc": ["libs/yrgrd/stats-calc/src/index.ts"]

@@ -1,0 +1,97 @@
+[
+  {
+    "name": "ちからの原石",
+    "stats": { "atk": 2 },
+    "element": "none"
+  },
+  {
+    "name": "まもりの原石",
+    "stats": { "def": 2 },
+    "element": "none"
+  },
+  {
+    "name": "まほうの原石",
+    "stats": { "matk": 2 },
+    "element": "none"
+  },
+  {
+    "name": "いのりの原石",
+    "stats": { "mdef": 2 },
+    "element": "none"
+  },
+  {
+    "name": "太陽の原石",
+    "stats": { "fire": 5 },
+    "element": "fire"
+  },
+  {
+    "name": "太陽の欠片",
+    "stats": { "fire": 10 },
+    "element": "fire"
+  },
+  {
+    "name": "太陽の結晶",
+    "stats": { "fire": 15 },
+    "element": "fire"
+  },
+  {
+    "name": "海の原石",
+    "stats": { "water": 5 },
+    "element": "water"
+  },
+  {
+    "name": "海の欠片",
+    "stats": { "water": 10 },
+    "element": "water"
+  },
+  {
+    "name": "海の結晶",
+    "stats": { "water": 15 },
+    "element": "water"
+  },
+  {
+    "name": "大地の原石",
+    "stats": { "forest": 5 },
+    "element": "forest"
+  },
+  {
+    "name": "大地の欠片",
+    "stats": { "forest": 10 },
+    "element": "forest"
+  },
+  {
+    "name": "大地の結晶",
+    "stats": { "forest": 15 },
+    "element": "forest"
+  },
+  {
+    "name": "光の原石",
+    "stats": { "light": 5 },
+    "element": "light"
+  },
+  {
+    "name": "光の欠片",
+    "stats": { "light": 10 },
+    "element": "light"
+  },
+  {
+    "name": "光の結晶",
+    "stats": { "light": 15 },
+    "element": "light"
+  },
+  {
+    "name": "闇の原石",
+    "stats": { "dark": 5 },
+    "element": "dark"
+  },
+  {
+    "name": "闇の欠片",
+    "stats": { "dark": 10 },
+    "element": "dark"
+  },
+  {
+    "name": "闇の結晶",
+    "stats": { "dark": 15 },
+    "element": "dark"
+  }
+]

@@ -1,4 +1,5 @@
-import { BONUS_LIST, BonusTable, StatsTable } from '@trc-tools/yrgrd/data';
+import { BonusTable, StatsTable } from '@trc-tools/yrgrd/data';
+import { BONUS_LIST } from '@trc-tools/yrgrd/data';
 
 export function calcBonusStats(bonuses: Partial<BonusTable>) {
   const stats: Partial<StatsTable> = {};

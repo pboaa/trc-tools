@@ -36,6 +36,4 @@ export const jobBaseStats = {
   hit: 5,
   flee: 5,
   critRate: 1,
-  turnSpd: 4,
-  dmgRange: 30,
 };

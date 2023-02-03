@@ -6,29 +6,29 @@ import {
   STAT_LIST,
 } from '@trc-tools/yrgrd/data';
 
-function getJobJsonValue(job: Job) {
-  const jsonObj = jobsJson.find((obj) => obj.name === job);
-  if (!jsonObj) {
-    throw new Error(`Error`);
+export function getJobJsonValue(job: Job) {
+  const json = jobsJson.find((obj) => obj.name === job);
+  if (!json) {
+    throw new Error(`Error: Invalid job name`);
   }
-
   return {
-    jsonBase: { ...jsonObj.base, ...jobBaseStats },
-    jsonGrow: jsonObj.grow,
+    jsonBase: { ...json.base, ...jobBaseStats },
+    jsonGrow: json.grow,
   } as {
     jsonBase: Partial<StatsTable>;
     jsonGrow: Partial<StatsTable>;
   };
 }
+
 export function calcJobStats(job: Job, level: number) {
   const stats: Partial<StatsTable> = {};
-
   const { jsonBase, jsonGrow } = getJobJsonValue(job);
 
   STAT_LIST.forEach((key) => {
     const base = jsonBase[key] ?? 0;
     const grow = jsonGrow[key] ?? 0;
     const lv = level - 1;
+
     if (!base && !grow) return;
 
     switch (key) {
