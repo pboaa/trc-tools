@@ -9,13 +9,15 @@ export const ELEMENT_LIST = [
   'dark',
 ] as const;
 export type Element = typeof ELEMENT_LIST[number];
-export type ElementTable<T = number> = { [element in Element]: T };
+// export type ElementTable<T = number> = { [element in Element]: T };
 
-type ElementMultipliers = {
-  [key in Element]?: number;
-};
-
-const ELEMENT_MULTIPLIERS: { [key: string]: ElementMultipliers } = {
+const ELEMENT_MULTIPLIERS: {
+  [key in Element]: {
+    [key in Element]?:
+      | typeof ADVANTAGE_MULTIPLIER
+      | typeof DIS_ADVANTAGE_MULTIPLIER;
+  };
+} = {
   none: {},
   fire: {
     forest: ADVANTAGE_MULTIPLIER,
@@ -33,10 +35,9 @@ const ELEMENT_MULTIPLIERS: { [key: string]: ElementMultipliers } = {
   dark: {},
 };
 
-function elementMultiplier(
+function getElementMultiplier(
   attackerElement: Element,
   defenderElement: Element
-): number {
-  const multipliers = ELEMENT_MULTIPLIERS[attackerElement];
-  return multipliers[defenderElement] ?? 1;
+) {
+  return ELEMENT_MULTIPLIERS[attackerElement][defenderElement] ?? 1;
 }
